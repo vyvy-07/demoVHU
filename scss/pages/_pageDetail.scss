@@ -1,0 +1,52 @@
+// scBanner
+.scBanner {
+  .boxs {
+    display: flex;
+
+    &.twoCol {
+      gap: var(--gap20);
+
+      .boxs__item {
+        width: calc(100% / 2);
+      }
+    }
+  }
+}
+.--cpnPageDetail {
+  .boxs {
+    &__item {
+      width: calc(100% / 3);
+    }
+  }
+  .listnews__company {
+    border-bottom: 1px solid $grey5;
+  }
+}
+.scListBlog {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    justify-content: start;
+    align-items: start;
+
+    gap: var(--gap20);
+  }
+  .boxs {
+    grid-column: 1/10;
+    grid-row: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+
+    gap: var(--gap20);
+  }
+  &__Banner {
+    grid-column: 10/13;
+    grid-row: auto;
+    img {
+      width: 100%;
+    }
+  }
+}
