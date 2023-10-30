@@ -1,7 +1,11 @@
+.sub_ft {
+  width: 100%;
+  @include dflex;
+}
 .footer {
   color: $white;
-  margin-top: var(--mg86);
-  background: var(--black);
+  // margin-top: var(--mg86);
+  background: var(--blue);
   width: 100%;
   text-align: center;
 }
