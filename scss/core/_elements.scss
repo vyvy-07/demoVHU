@@ -1,3 +1,30 @@
+.app-brand {
+  display: inline;
+  height: initial !important;
+  padding: 40px 15px !important;
+  border-bottom: 1px solid var(--black);
+}
+.logoUser {
+  width: 80%;
+  margin: 0 auto;
+}
+.menu-item.active::before {
+  width: 0 !important;
+  height: 0 !important;
+}
+.colTime span {
+  display: flex;
+  margin-top: 4px;
+  text-transform: initial !important;
+  line-height: 20px;
+  white-space: initial !important;
+  max-width: 180px;
+  flex-direction: column;
+  background-color: auto !important;
+}
+.colTime.detail span {
+  max-width: initial;
+}
 //heading
 .heading-h1 {
   font-size: var(--fs40);

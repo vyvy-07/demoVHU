@@ -1,0 +1,19 @@
+Có thể sử dụng kiến trúc ứng dụng tông quát nào như là
+một template cho hệ thống sẽ được thiết kế không?
+
+Hệ thống được ` phân tán trên nhiều core phần cứng hoặc
+Drocessor như thê nào?
+
+Có mẫu kiến trúc nào phù hợp?
+
+Phương pháp nào được sử dụng đề cầu trúc hoá hệ thống?
+
+Hệ thống được phân rã thành các module như thế nào?
+
+Chiến thuật nào được sử dụng đề điều khiển hoạt động của các
+component trong hệ thông?
+
+Kiến trúc được thiết kế như thế nào để thoả mãn tốt nhất
+các yêu câu phi chức năng của hệ thông?
+
+Kiến trúc được viết thành tài liệu như thế nào?
